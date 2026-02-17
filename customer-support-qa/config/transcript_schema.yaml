@@ -1,0 +1,39 @@
+transcript_schema:
+  version: "1.0"
+  
+  call_transcript:
+    fields:
+      - conversation_id: unique ID
+      - date: date of call
+      - duration_seconds: call length
+      - agent_name: agent identifier
+      - speakers:
+          - speaker_id: 0 or 1
+          - role: agent or customer
+      - segments:
+          - start_time: seconds
+          - end_time: seconds
+          - text: what was said
+      - full_transcript: complete text
+      - audio_quality: good/fair/poor
+      - language: en, es, etc.
+  
+  chat_transcript:
+    fields:
+      - conversation_id: unique ID
+      - date: date of chat
+      - duration_seconds: chat length
+      - agent_name: agent identifier
+      - messages:
+          - timestamp: when sent
+          - speaker: agent or customer
+          - text: message content
+      - platform: web, mobile, etc.
+      - language: en, es, etc.
+  
+  quality_metrics:
+    - empathy_score: 1-10
+    - resolution_score: 1-10
+    - professionalism_score: 1-10
+    - response_time: average seconds
+    - compliance: pass/fail

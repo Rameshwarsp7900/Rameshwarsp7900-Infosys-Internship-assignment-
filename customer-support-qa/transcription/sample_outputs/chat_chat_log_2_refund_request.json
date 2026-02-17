@@ -1,0 +1,47 @@
+{
+  "conversation_id": "chat_chat_log_2_refund_request",
+  "date": "2026-02-17",
+  "duration_seconds": 120,
+  "agent": "Mike",
+  "total_messages": 6,
+  "messages": [
+    {
+      "timestamp": "14:15:00",
+      "speaker": "customer",
+      "speaker_raw": "Customer",
+      "text": "I need to request a refund for my recent purchase"
+    },
+    {
+      "timestamp": "14:15:10",
+      "speaker": "agent",
+      "speaker_raw": "Agent_Mike",
+      "text": "I'd be happy to help you with that. Can you tell me more about why you'd like a refund?"
+    },
+    {
+      "timestamp": "14:15:45",
+      "speaker": "customer",
+      "speaker_raw": "Customer",
+      "text": "The product doesn't work as advertised"
+    },
+    {
+      "timestamp": "14:16:00",
+      "speaker": "agent",
+      "speaker_raw": "Agent_Mike",
+      "text": "I understand your frustration. Let me process a full refund for you."
+    },
+    {
+      "timestamp": "14:16:30",
+      "speaker": "agent",
+      "speaker_raw": "Agent_Mike",
+      "text": "Your refund has been initiated and will appear in 3-5 business days."
+    },
+    {
+      "timestamp": "14:17:00",
+      "speaker": "customer",
+      "speaker_raw": "Customer",
+      "text": "Great, thanks for your help"
+    }
+  ],
+  "platform": "web",
+  "language": "en"
+}

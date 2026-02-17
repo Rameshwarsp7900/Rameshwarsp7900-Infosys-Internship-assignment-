@@ -1,0 +1,6 @@
+[14:15:00] Customer: I need to request a refund for my recent purchase
+[14:15:10] Agent_Mike: I'd be happy to help you with that. Can you tell me more about why you'd like a refund?
+[14:15:45] Customer: The product doesn't work as advertised
+[14:16:00] Agent_Mike: I understand your frustration. Let me process a full refund for you.
+[14:16:30] Agent_Mike: Your refund has been initiated and will appear in 3-5 business days.
+[14:17:00] Customer: Great, thanks for your help

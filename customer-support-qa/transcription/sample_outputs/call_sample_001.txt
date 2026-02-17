@@ -1,0 +1,22 @@
+Conversation ID: call_sample_001
+Date: 2026-02-17
+Duration: 185.5 seconds
+Agent: Sarah
+
+============================================================
+
+[CUSTOMER - 0.0s]: Hi, my package hasn't arrived yet.
+[AGENT - 5.2s]: I'm sorry to hear that. Let me look into this for you right away.
+[AGENT - 10.5s]: Can you provide your order number?
+[CUSTOMER - 15.8s]: It's 12345.
+[AGENT - 20.3s]: Thank you. I see your order was delayed in transit.
+[AGENT - 25.7s]: I'll expedite shipping at no cost to you.
+[CUSTOMER - 30.2s]: Thank you so much!
+[AGENT - 33.5s]: You're very welcome! Is there anything else I can help you with today?
+[CUSTOMER - 38.0s]: No, that's all. Thanks again!
+[AGENT - 42.5s]: My pleasure. Have a great day!
+
+============================================================
+
+Full Transcript:
+Hi, my package hasn't arrived yet. I'm sorry to hear that. Let me look into this for you right away. Can you provide your order number? It's 12345. Thank you. I see your order was delayed in transit. I'll expedite shipping at no cost to you. Thank you so much! You're very welcome! Is there anything else I can help you with today? No, that's all. Thanks again! My pleasure. Have a great day!

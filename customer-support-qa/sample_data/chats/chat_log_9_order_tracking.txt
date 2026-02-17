@@ -1,0 +1,6 @@
+[10:30:00] Customer: My order hasn't arrived yet
+[10:30:15] Agent_Sarah: I'm sorry to hear that. Let me check your order status.
+[10:30:45] Customer: Order #12345
+[10:31:00] Agent_Sarah: Thank you. I see your order is delayed in transit.
+[10:31:30] Agent_Sarah: I'll expedite shipping at no cost to you.
+[10:32:00] Customer: Thank you so much!

@@ -1,0 +1,14 @@
+{
+  "conversation_id": "chat_chat_log_1_order_tracking",
+  "analysis": {
+    "empathy_score": 9,
+    "empathy_reasoning": "Agent showed genuine concern and took immediate action to help the customer",
+    "resolution_score": 10,
+    "resolution_reasoning": "Problem was completely resolved with expedited shipping at no extra cost",
+    "professionalism_score": 10,
+    "professionalism_reasoning": "Polite, clear communication throughout the conversation",
+    "overall_quality": "Excellent"
+  },
+  "model_used": "anthropic/claude-3.5-sonnet",
+  "timestamp": "2026-02-17T14:30:00"
+}

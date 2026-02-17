@@ -1,0 +1,53 @@
+{
+  "conversation_id": "chat_chat_log_7_technical_issue",
+  "date": "2026-02-17",
+  "duration_seconds": 150,
+  "agent": "Lisa",
+  "total_messages": 7,
+  "messages": [
+    {
+      "timestamp": "09:00:00",
+      "speaker": "customer",
+      "speaker_raw": "Customer",
+      "text": "I can't log into my account"
+    },
+    {
+      "timestamp": "09:00:20",
+      "speaker": "agent",
+      "speaker_raw": "Agent_Lisa",
+      "text": "I'm sorry you're having trouble. Let me help you resolve this."
+    },
+    {
+      "timestamp": "09:00:35",
+      "speaker": "agent",
+      "speaker_raw": "Agent_Lisa",
+      "text": "Have you tried resetting your password?"
+    },
+    {
+      "timestamp": "09:01:00",
+      "speaker": "customer",
+      "speaker_raw": "Customer",
+      "text": "Yes, but I'm not receiving the reset email"
+    },
+    {
+      "timestamp": "09:01:20",
+      "speaker": "agent",
+      "speaker_raw": "Agent_Lisa",
+      "text": "Let me check your account settings."
+    },
+    {
+      "timestamp": "09:02:00",
+      "speaker": "agent",
+      "speaker_raw": "Agent_Lisa",
+      "text": "I've resent the password reset email to your registered address."
+    },
+    {
+      "timestamp": "09:02:30",
+      "speaker": "customer",
+      "speaker_raw": "Customer",
+      "text": "Got it! Thanks!"
+    }
+  ],
+  "platform": "web",
+  "language": "en"
+}

@@ -1,0 +1,7 @@
+[16:45:00] Customer: My account has been charged twice
+[16:45:15] Agent_Tom: I apologize for the inconvenience. Let me look into this right away.
+[16:45:50] Agent_Tom: I can see the duplicate charge. This was an error on our end.
+[16:46:20] Agent_Tom: I've processed a refund for the duplicate charge.
+[16:46:45] Customer: When will I see the refund?
+[16:47:00] Agent_Tom: It should appear in your account within 2-3 business days.
+[16:47:20] Customer: Thank you for your help

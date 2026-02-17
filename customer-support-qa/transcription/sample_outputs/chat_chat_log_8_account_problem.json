@@ -1,0 +1,53 @@
+{
+  "conversation_id": "chat_chat_log_8_account_problem",
+  "date": "2026-02-17",
+  "duration_seconds": 140,
+  "agent": "Tom",
+  "total_messages": 7,
+  "messages": [
+    {
+      "timestamp": "16:45:00",
+      "speaker": "customer",
+      "speaker_raw": "Customer",
+      "text": "My account has been charged twice"
+    },
+    {
+      "timestamp": "16:45:15",
+      "speaker": "agent",
+      "speaker_raw": "Agent_Tom",
+      "text": "I apologize for the inconvenience. Let me look into this right away."
+    },
+    {
+      "timestamp": "16:45:50",
+      "speaker": "agent",
+      "speaker_raw": "Agent_Tom",
+      "text": "I can see the duplicate charge. This was an error on our end."
+    },
+    {
+      "timestamp": "16:46:20",
+      "speaker": "agent",
+      "speaker_raw": "Agent_Tom",
+      "text": "I've processed a refund for the duplicate charge."
+    },
+    {
+      "timestamp": "16:46:45",
+      "speaker": "customer",
+      "speaker_raw": "Customer",
+      "text": "When will I see the refund?"
+    },
+    {
+      "timestamp": "16:47:00",
+      "speaker": "agent",
+      "speaker_raw": "Agent_Tom",
+      "text": "It should appear in your account within 2-3 business days."
+    },
+    {
+      "timestamp": "16:47:20",
+      "speaker": "customer",
+      "speaker_raw": "Customer",
+      "text": "Thank you for your help"
+    }
+  ],
+  "platform": "web",
+  "language": "en"
+}

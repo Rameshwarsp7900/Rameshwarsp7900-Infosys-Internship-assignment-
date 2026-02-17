@@ -1,0 +1,7 @@
+[09:00:00] Customer: I can't log into my account
+[09:00:20] Agent_Lisa: I'm sorry you're having trouble. Let me help you resolve this.
+[09:00:35] Agent_Lisa: Have you tried resetting your password?
+[09:01:00] Customer: Yes, but I'm not receiving the reset email
+[09:01:20] Agent_Lisa: Let me check your account settings.
+[09:02:00] Agent_Lisa: I've resent the password reset email to your registered address.
+[09:02:30] Customer: Got it! Thanks!

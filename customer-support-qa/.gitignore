@@ -1,0 +1,17 @@
+.env
+*.mp3
+*.wav
+*.m4a
+*.mp4
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.vscode/
+.idea/

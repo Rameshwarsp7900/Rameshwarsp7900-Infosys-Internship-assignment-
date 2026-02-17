@@ -1,0 +1,47 @@
+{
+  "conversation_id": "chat_chat_log_5_order_tracking",
+  "date": "2026-02-17",
+  "duration_seconds": 120,
+  "agent": "Sarah",
+  "total_messages": 6,
+  "messages": [
+    {
+      "timestamp": "10:30:00",
+      "speaker": "customer",
+      "speaker_raw": "Customer",
+      "text": "My order hasn't arrived yet"
+    },
+    {
+      "timestamp": "10:30:15",
+      "speaker": "agent",
+      "speaker_raw": "Agent_Sarah",
+      "text": "I'm sorry to hear that. Let me check your order status."
+    },
+    {
+      "timestamp": "10:30:45",
+      "speaker": "customer",
+      "speaker_raw": "Customer",
+      "text": "Order #12345"
+    },
+    {
+      "timestamp": "10:31:00",
+      "speaker": "agent",
+      "speaker_raw": "Agent_Sarah",
+      "text": "Thank you. I see your order is delayed in transit."
+    },
+    {
+      "timestamp": "10:31:30",
+      "speaker": "agent",
+      "speaker_raw": "Agent_Sarah",
+      "text": "I'll expedite shipping at no cost to you."
+    },
+    {
+      "timestamp": "10:32:00",
+      "speaker": "customer",
+      "speaker_raw": "Customer",
+      "text": "Thank you so much!"
+    }
+  ],
+  "platform": "web",
+  "language": "en"
+}
