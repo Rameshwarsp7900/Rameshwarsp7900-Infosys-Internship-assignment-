@@ -1,0 +1,24 @@
+[
+  {
+    "id": "batch_001_1",
+    "agent_name": "Multiple Agents",
+    "date": "2026-03-18 09:00",
+    "overall_score": 4.2,
+    "categories": { "communication": 4.5, "problem_solving": 4.0, "efficiency": 4.0, "compliance": 4.5 }
+  },
+  {
+    "id": "batch_001_2",
+    "agent_name": "Multiple Agents",
+    "date": "2026-03-18 09:01",
+    "overall_score": 3.5,
+    "categories": { "communication": 3.0, "problem_solving": 3.5, "efficiency": 4.0, "compliance": 4.0 }
+  },
+  {
+    "id": "batch_001_3",
+    "agent_name": "Multiple Agents",
+    "date": "2026-03-18 09:02",
+    "overall_score": 2.1,
+    "categories": { "communication": 2.5, "problem_solving": 2.0, "efficiency": 3.0, "compliance": 1.0 },
+    "violations": [{"phrase": "policy says no"}]
+  }
+]

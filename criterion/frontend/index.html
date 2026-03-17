@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criterion | AI Customer Support QA</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="app-container">
+        <!-- Sidebar Navigation -->
+        <aside class="sidebar">
+            <div class="logo">
+                <span class="logo-icon">C</span>
+                <h1>Criterion</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li class="active" data-tab="upload"><i class="icon-upload"></i> Upload</li>
+                    <li data-tab="scorecard"><i class="icon-card"></i> Scorecard</li>
+                    <li data-tab="batch"><i class="icon-batch"></i> Batch Results</li>
+                    <li data-tab="leaderboard"><i class="icon-rank"></i> Leaderboard</li>
+                    <li data-tab="rag"><i class="icon-docs"></i> RAG Manager</li>
+                </ul>
+            </nav>
+            <div class="alerts-section">
+                <h3>Critical Alerts <span id="alert-count" class="badge">0</span></h3>
+                <div id="alerts-list"></div>
+            </div>
+        </aside>
+
+        <!-- Main Content Area -->
+        <main class="content">
+            <!-- Tab: Upload -->
+            <section id="tab-upload" class="tab-content active">
+                <div class="header">
+                    <h2>Upload Interaction</h2>
+                    <p>Select an audio file (MP3, WAV, M4A) or a chat log (TXT) to analyze.</p>
+                </div>
+                <div class="upload-area" id="drop-zone">
+                    <input type="file" id="file-input" hidden>
+                    <div class="upload-prompt">
+                        <i class="icon-upload-lg"></i>
+                        <p>Drag and drop files here or <span>browse</span></p>
+                        <small>Supports MP3, WAV, M4A, TXT</small>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="agent-name">Agent Name</label>
+                    <input type="text" id="agent-name" placeholder="Enter agent name...">
+                </div>
+                <button id="analyze-btn" class="btn-primary">Analyze Now</button>
+                <div id="upload-progress" class="progress-container hidden">
+                    <div class="progress-bar"></div>
+                    <p>Processing interaction... This may take 30-60 seconds.</p>
+                </div>
+            </section>
+
+            <!-- Tab: Scorecard -->
+            <section id="tab-scorecard" class="tab-content">
+                <div class="scorecard-header">
+                    <div class="agent-info">
+                        <h2 id="sc-agent-name">Agent Name</h2>
+                        <p id="sc-date">March 16, 2026 | ID: call_12345</p>
+                    </div>
+                    <div class="overall-score">
+                        <span class="label">Overall QA Score</span>
+                        <h2 id="sc-overall-score">0.0</h2>
+                    </div>
+                </div>
+
+                <div class="dashboard-grid">
+                    <!-- Radar Chart -->
+                    <div class="card">
+                        <h3>QA Performance Radar</h3>
+                        <canvas id="radarChart"></canvas>
+                    </div>
+
+                    <!-- Parameter Breakdown -->
+                    <div class="card">
+                        <h3>Parameter Breakdown</h3>
+                        <div id="parameters-list" class="params-grid"></div>
+                    </div>
+
+                    <!-- Sentiment Timeline -->
+                    <div class="card full-width">
+                        <h3>Sentiment Timeline</h3>
+                        <canvas id="sentimentChart"></canvas>
+                    </div>
+
+                    <!-- Coaching Engine -->
+                    <div class="card">
+                        <h3>Coaching Recommendations</h3>
+                        <div id="coaching-list"></div>
+                    </div>
+
+                    <!-- Violations -->
+                    <div class="card">
+                        <h3>Compliance Violations</h3>
+                        <div id="violations-list"></div>
+                    </div>
+
+                    <!-- Transcript -->
+                    <div class="card full-width transcript-card">
+                        <h3>Full Transcript</h3>
+                        <div id="transcript-container" class="transcript-view"></div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Tab: Batch Results -->
+            <section id="tab-batch" class="tab-content">
+                <div class="header">
+                    <h2>Batch Analysis Results</h2>
+                    <button id="refresh-batch" class="btn-secondary">Refresh</button>
+                </div>
+                <table class="data-table">
+                    <thead>
+                        <tr>
+                            <th>Agent</th>
+                            <th>Date</th>
+                            <th>Score</th>
+                            <th>Comm.</th>
+                            <th>Problem</th>
+                            <th>Eff.</th>
+                            <th>Comp.</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody id="batch-results-body"></tbody>
+                </table>
+            </section>
+
+            <!-- Tab: Leaderboard -->
+            <section id="tab-leaderboard" class="tab-content">
+                <div class="header">
+                    <h2>Agent Leaderboard</h2>
+                    <p>Performance rankings based on average QA scores this week.</p>
+                </div>
+                <div class="leaderboard-grid" id="leaderboard-container"></div>
+            </section>
+
+            <!-- Tab: RAG -->
+            <section id="tab-rag" class="tab-content">
+                <div class="header">
+                    <h2>Knowledge Base Manager (Phase 2)</h2>
+                    <p>Upload company policy documents to improve LLM accuracy.</p>
+                </div>
+                <div class="empty-state">
+                    <p>This feature is coming in Phase 2. The backend is already prepared for RAG integration.</p>
+                </div>
+            </section>
+        </main>
+    </div>
+    <script src="js/app.js"></script>
+</body>
+</html>

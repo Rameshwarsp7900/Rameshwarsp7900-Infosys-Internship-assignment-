@@ -1,0 +1,25 @@
+# Criterion System Architecture
+
+## Overview
+Criterion is built with a decoupled architecture, using a Python Flask backend for heavy processing and a Vanilla JavaScript frontend for the user dashboard.
+
+## Backend (Flask)
+- **API Layer (`app.py`)**: RESTful endpoints for file uploads and data retrieval.
+- **Core Pipeline (`core/`)**:
+  - `analyzer.py`: Orchestrates the flow from transcription to scoring.
+  - `transcription_engine.py`: Interfaces with Deepgram API for STT and sentiment.
+  - `qa_engine.py`: Interfaces with OpenRouter (Gemini 2.0 Flash) for qualitative analysis.
+  - `prohibited_scanner.py`: Efficient regex-based compliance checking.
+
+## Frontend (Vanilla JS)
+- **SPA Architecture**: Single-page application using hash-less routing (tab-based).
+- **Visualization**: `Chart.js` for performance radar and sentiment timelines.
+- **State Management**: Local in-memory state for the active session.
+
+## Data Flow
+1. File Upload → Backend
+2. Backend → Deepgram (Transcription + Sentiment)
+3. Backend → Prohibited Scanner (Compliance check)
+4. Backend → OpenRouter LLM (QA Scoring + Coaching)
+5. Backend → Frontend (Aggregated JSON Result)
+6. Frontend → UI Update (Charts, Lists, Transcript)

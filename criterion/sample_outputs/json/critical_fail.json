@@ -1,0 +1,74 @@
+{
+  "id": "critical_fail_002",
+  "agent_name": "John Doe",
+  "date": "2026-03-17 11:26",
+  "source": "audio",
+  "duration": 120.5,
+  "overall_score": 2.0,
+  "categories": {
+    "communication": 2.0,
+    "problem_solving": 1.5,
+    "efficiency": 3.0,
+    "compliance": 1.0
+  },
+  "parameters": {
+    "empathy": 2,
+    "professionalism": 2,
+    "language_quality": 4,
+    "resolution": 1,
+    "emotional_intelligence": 2,
+    "efficiency": 3,
+    "bias_reduction": 5,
+    "overall_compliance": 1
+  },
+  "reasoning": {
+    "empathy": "Agent dismissed the customer's concern.",
+    "professionalism": "Used dismissive language: 'not my problem'.",
+    "language_quality": "Grammar was fine but tone was inappropriate.",
+    "resolution": "Issue was not resolved.",
+    "emotional_intelligence": "Failed to handle customer frustration.",
+    "efficiency": "Conversation was short but ineffective.",
+    "bias_reduction": "No bias detected.",
+    "overall_compliance": "Critical compliance failure due to prohibited phrase."
+  },
+  "violations": [
+    {
+      "phrase": "not my problem",
+      "timestamp": 5.5,
+      "text_snippet": "I'm very sorry to hear that. That's not my problem though, you should check the tracking.",
+      "speaker": "agent"
+    }
+  ],
+  "coaching": [
+    {
+      "priority": "High",
+      "area": "Empathy",
+      "issue": "Agent used dismissive language: 'that's not my problem'",
+      "transcript_moment": "[0:05] 'That's not my problem though'",
+      "action": "Rephrase to: 'I understand this is frustrating. Let's see how we can resolve this.'",
+      "impact": "Improves customer satisfaction and retention."
+    },
+    {
+      "priority": "Medium",
+      "area": "Resolution",
+      "issue": "Agent failed to provide any solution or next steps.",
+      "transcript_moment": "End of call",
+      "action": "Always provide a clear next step or reference number.",
+      "impact": "Reduces follow-up calls."
+    }
+  ],
+  "transcript": [
+    {"start_time": 0.5, "end_time": 2.0, "role": "agent", "text": "Hello, thank you for calling support. How can I help you today?"},
+    {"start_time": 2.5, "end_time": 5.0, "role": "customer", "text": "Hi, I'm having trouble with my order. It's late."},
+    {"start_time": 5.5, "end_time": 10.0, "role": "agent", "text": "I'm very sorry to hear that. That's not my problem though, you should check the tracking."},
+    {"start_time": 10.5, "end_time": 12.0, "role": "customer", "text": "That's very rude!"}
+  ],
+  "full_transcript": "Hello, thank you for calling support. How can I help you today? Hi, I'm having trouble with my order. It's late. I'm very sorry to hear that. That's not my problem though, you should check the tracking. That's very rude!",
+  "trend": "declining",
+  "sentiment_timeline": [
+    {"time": 0.5, "role": "agent", "score": 0.8, "text": "Hello, thank you for calling support. How can I help you today?"},
+    {"time": 2.5, "role": "customer", "score": -0.6, "text": "Hi, I'm having trouble with my order. It's late."},
+    {"time": 5.5, "role": "agent", "score": 0.0, "text": "I'm very sorry to hear that. That's not my problem though, you should check the tracking."},
+    {"time": 10.5, "role": "customer", "score": -0.9, "text": "That's very rude!"}
+  ]
+}
