@@ -1,0 +1,7 @@
+[00:00] Agent: Criterion Support, Sarah speaking.
+[00:05] Customer: Hi, I need a refund for order #9988.
+[00:10] Agent: We don't do refunds here. You bought it, it's yours.
+[00:15] Customer: But the item arrived broken!
+[00:20] Agent: Still, not our fault. It probably broke in your house.
+[00:25] Customer: That's ridiculous! I want my money back.
+[00:30] Agent: You're wrong about that. We have no refund policy for broken items. It's a stupid rule but I follow it.

@@ -1,0 +1,9 @@
+[00:00] Agent: Yeah, what do you want?
+[00:05] Customer: Hello? I'm calling because my delivery is 3 days late.
+[00:10] Agent: That's not my problem. We just ship them, we don't drive the trucks.
+[00:15] Customer: But I paid for express shipping!
+[00:18] Agent: Look, whatever. Policy says no refunds on shipping. Talk to the manager if you're so upset.
+[00:25] Customer: This is terrible service! You're being very rude.
+[00:30] Agent: I don't care. Shut up or I'm hanging up.
+[00:35] Customer: I want to file a complaint!
+[00:40] Agent: Fine, do what you want. Bye.

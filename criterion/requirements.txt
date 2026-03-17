@@ -1,0 +1,9 @@
+deepgram-sdk>=3.0.0
+openai>=1.0.0
+python-dotenv>=1.0.0
+pydub>=0.25.1
+requests>=2.31.0
+Flask>=3.0.0
+Flask-Cors>=4.0.0
+pytest>=8.0.0
+pytest-cov>=4.1.0

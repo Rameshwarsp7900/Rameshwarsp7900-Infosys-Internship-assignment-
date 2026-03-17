@@ -1,0 +1,57 @@
+{
+  "id": "good_interaction_001",
+  "agent_name": "Sarah Agent",
+  "date": "2026-03-16 14:20",
+  "source": "audio",
+  "duration": 150.2,
+  "overall_score": 4.8,
+  "categories": {
+    "communication": 4.7,
+    "problem_solving": 5.0,
+    "efficiency": 4.5,
+    "compliance": 5.0
+  },
+  "parameters": {
+    "empathy": 5,
+    "professionalism": 4,
+    "language_quality": 5,
+    "resolution": 5,
+    "emotional_intelligence": 5,
+    "efficiency": 4,
+    "bias_reduction": 5,
+    "overall_compliance": 5
+  },
+  "reasoning": {
+    "empathy": "Agent showed excellent understanding of the customer's frustration.",
+    "professionalism": "Polite and professional throughout, though spoke a bit fast.",
+    "language_quality": "Clear and grammatically correct.",
+    "resolution": "Problem was resolved on the first call.",
+    "emotional_intelligence": "Handled the customer's initial anger with grace.",
+    "efficiency": "Resolution was reached quickly, though some idle chatter.",
+    "bias_reduction": "No bias detected.",
+    "overall_compliance": "Followed all company protocols."
+  },
+  "violations": [],
+  "coaching": [
+    {
+      "priority": "Low",
+      "area": "Professionalism",
+      "issue": "Fast speech rate",
+      "transcript_moment": "[1:15] 'Letmecheckthatforyourightaway'",
+      "action": "Slow down slightly to ensure clarity.",
+      "impact": "Improves accessibility and professionalism."
+    }
+  ],
+  "transcript": [
+    {"start_time": 0.5, "end_time": 3.0, "role": "agent", "text": "Hello, this is Sarah from support. How can I help you today?"},
+    {"start_time": 3.5, "end_time": 7.0, "role": "customer", "text": "I'm very upset, my account was charged twice!"},
+    {"start_time": 7.5, "end_time": 12.0, "role": "agent", "text": "I completely understand why that would be frustrating. Let me look into that for you immediately."}
+  ],
+  "full_transcript": "Hello, this is Sarah from support. How can I help you today? I'm very upset, my account was charged twice! I completely understand why that would be frustrating. Let me look into that for you immediately.",
+  "trend": "improving",
+  "sentiment_timeline": [
+    {"time": 0.5, "role": "agent", "score": 0.8, "text": "Hello, this is Sarah from support. How can I help you today?"},
+    {"time": 3.5, "role": "customer", "score": -0.7, "text": "I'm very upset, my account was charged twice!"},
+    {"time": 7.5, "role": "agent", "score": 0.9, "text": "I completely understand why that would be frustrating. Let me look into that for you immediately."}
+  ]
+}

@@ -1,0 +1,10 @@
+[00:00] Agent: Hello, thank you for contacting Criterion support. This is Alex speaking. How can I help you today?
+[00:08] Customer: Hi Alex, I'm having trouble with my subscription. I was charged twice this month.
+[00:15] Agent: I'm very sorry to hear that. I understand how frustrating it is to see duplicate charges. Let me look into that for you right away.
+[00:25] Agent: Could you please provide your account email address?
+[00:30] Customer: Sure, it's customer@example.com.
+[00:35] Agent: Thank you. I'm checking the records now...
+[00:45] Agent: Yes, I see what happened. It looks like there was a temporary glitch in our billing system. I have already initiated a refund for the second charge.
+[00:55] Agent: You should see it back in your account within 3 to 5 business days. Is there anything else I can assist you with?
+[01:05] Customer: No, that's all. Thank you for fixing it so quickly!
+[01:10] Agent: You're very welcome! Have a great day and thank you for being a valued customer.
